@@ -66,7 +66,6 @@ Git
 
                 will display the changwes made.
 
-
         Versioning
         -----------------------------------------------------------------
 
@@ -75,9 +74,9 @@ Git
 
                 git show commitId               shows the chagnes in a specific commit.
 
-                git checkout commitId           swithc the workspace and local repo a specific commit
+                git checkout commitId .         switch the workspace and local repo a specific commit
 
-                git switch -                    will make the head point tot eh latest commit.
+                git switch -                    will make the head point to the latest commit.
 
         Branches
         -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -86,7 +85,7 @@ Git
 
              a repo can lie on a single branch at a time.
 
-             we can with between branches freely.
+             we can switch between branches freely.
 
              git branch
 
@@ -98,7 +97,13 @@ Git
 
              git merge branchName          ---> the current brach will be merged with the specified branch
 
-             git branch -D branchName      ----> Removes a branch
+             git branch -d branchName      ----> Removes a branch only if its merged already
+
+             git branch -D branchName      ----> Removes a branch by force
+
+             git push origin --delete branchName ---> Remove a branch from remote repo.
+
+             git branch -m oldBranchName newBranchName ----> renames a branch
 
 
              
