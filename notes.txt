@@ -105,11 +105,23 @@ Git
 
              git branch -m oldBranchName newBranchName ----> renames a branch
 
-
         Stashing
         ------------------------------------------------------------
 
                 of storing the uncommited chagnes tempararily
+
+                git stash               to create a temparry store
+
+                git stash pop           to bring bakc the statshed store.
+
+        git rm file                     remove the fiel from wroking tree and local repo
+        git mv src dest                 mvoe the fiel from src to dest 
+                                        on both the working tree and local repo
+
+
+        git tag -a "" -m "" commitId
+
+        git rebase                      rearranges the commtis order after merging a branch
 
                 
 
