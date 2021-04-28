@@ -106,7 +106,12 @@ Git
              git branch -m oldBranchName newBranchName ----> renames a branch
 
 
-             
+        Stashing
+        ------------------------------------------------------------
+
+                of storing the uncommited chagnes tempararily
+
+                
 
         
 
